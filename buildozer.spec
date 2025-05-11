@@ -25,7 +25,9 @@ source.include_exts = py,png,jpg,jpeg,ttf
 requirements = flet,opencv-python,numpy,android
 
 # أذونات Android
-android.permissions = CAMERA, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE
+[app]
+
+requirements = python3,cython==0.29.36,flet,opencv-python,numpy,android
 
 # نسخة Android SDK الأدنى
 android.minapi = 21
@@ -39,5 +41,3 @@ android.sdl = 2
 # نظام التشغيل الهدف (android)
 osx.python_version = 3
 osx.arch = x86_64
-
-requirements = python3,cython==0.29.36,flet,opencv-python,numpy
