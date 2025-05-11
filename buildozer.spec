@@ -39,3 +39,5 @@ android.sdl = 2
 # نظام التشغيل الهدف (android)
 osx.python_version = 3
 osx.arch = x86_64
+
+requirements = python3,cython==0.29.36,flet,opencv-python,numpy
